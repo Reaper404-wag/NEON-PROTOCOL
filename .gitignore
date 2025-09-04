@@ -1,0 +1,93 @@
+# Зависимости
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Временные файлы
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Логи
+logs/
+*.log
+
+# Файлы IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Операционные системы
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Сборка
+dist/
+build/
+out/
+
+# Тестирование
+coverage/
+.nyc_output/
+
+# Переменные окружения
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Кэш
+.cache/
+.parcel-cache/
+
+# Локальные настройки
+*.local
+
+# Временные ресурсы (если генерируются автоматически)
+temp_assets/
+generated/
+
+# Файлы сохранения игры (если нужно)
+save_data/
+game_saves/
+
+# Документация сборки
+docs/build/
+
+# Файлы отладки
+debug/
+debug_logs/
+
+# Резервные копии
+*.bak
+*.backup
+*.old
+
+# Сжатые файлы
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# Файлы изображений (если они большие и не нужны в репозитории)
+# assets/images/*.psd
+# assets/images/*.ai
+# assets/images/*.sketch
+
+# Файлы аудио (если они большие и не нужны в репозитории)
+# assets/sounds/*.wav
+# assets/music/*.wav
+
+# Файлы конфигурации локальной разработки
+config.local.js
+settings.local.json

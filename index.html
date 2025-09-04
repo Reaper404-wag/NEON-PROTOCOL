@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎮</text></svg>">
+    <title>Future Survivors - Футуристическая игра выживания</title>
+    
+    <!-- Google Fonts - Sansation -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body, html {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background: #000;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        #game-container {
+            width: 100vw;
+            height: 100vh;
+            display: block;
+        }
+        
+        canvas {
+            display: block;
+            width: 100% !important;
+            height: 100% !important;
+            position: relative;
+            z-index: 0; /* БАЗОВЫЙ УРОВЕНЬ - ВИДИМЫЙ */
+        }
+        
+        .loading {
+            color: #00ff00;
+            font-size: 24px;
+            text-align: center;
+            margin: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+    <div id="game-container">
+        <div class="loading">Загрузка игры...</div>
+    </div>
+    
+    <!-- Phaser 3 -->
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.70.0/dist/phaser.min.js"></script>
+    
+    <!-- Игровые сцены (сначала!) -->
+    <script src="js/scenes/BootScene.js"></script>
+    <script src="js/scenes/PreloadScene.js"></script>
+    <script src="js/scenes/IntroScene.js"></script>
+    <script src="js/scenes/MenuScene.js"></script>
+    <script src="js/scenes/GameScene.js"></script>
+    <script src="js/scenes/GameOverScene.js"></script>
+    
+    <!-- Конфигурация игры (после сцен!) -->
+    <script src="js/config/gameConfig.js"></script>
+    
+    <!-- Игровые сущности -->
+    <script src="js/entities/Enemy.js"></script>
+    <script src="js/entities/AssaultEnemy.js"></script>
+    <script src="js/entities/GifAssaultEnemy.js"></script>
+    <script src="js/entities/TankEnemy.js"></script>
+    <script src="js/entities/GifTankEnemy.js"></script>
+    <script src="js/entities/MageEnemy.js"></script>
+    <script src="js/entities/GifMageEnemy.js"></script>
+    <script src="js/entities/GifPlayer.js"></script>
+    <!-- <script src="js/entities/Player.js"></script> -->
+    <!-- <script src="js/entities/Projectile.js"></script> -->
+    <!-- <script src="js/entities/PowerUp.js"></script> -->
+    
+    <!-- Игровые механики (только работающие) -->
+    <script src="js/systems/BackgroundManager.js"></script>
+    <script src="js/systems/BoundarySystem.js"></script>
+    <script src="js/systems/BuffSystem.js"></script>
+    <script src="js/systems/AudioManager.js"></script>
+    <!-- <script src="js/systems/WeaponSystem.js"></script> -->
+    <!-- <script src="js/systems/EnemySpawner.js"></script> -->
+    <!-- <script src="js/systems/PowerUpSystem.js"></script> -->
+    <!-- <script src="js/systems/ScoreSystem.js"></script> -->
+    
+    <!-- Утилиты -->
+    <script src="js/utils/GameMath.js"></script>
+    <script src="js/utils/AssetLoader.js"></script>
+    <script src="js/utils/ParticleFix.js"></script>
+    
+    <!-- Основной игровой файл -->
+    <script src="js/main.js"></script>
+</body>
+</html>

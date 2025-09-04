@@ -1,0 +1,93 @@
+Date : 2025-08-26 05:06:19
+Directory : d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game
+Total : 52 files,  11506 codes, 1913 comments, 2444 blanks, all 15863 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JavaScript |         41 |      9,751 |      1,893 |      2,159 |     13,803 |
+| Markdown   |          7 |        914 |          0 |        264 |      1,178 |
+| JSON       |          2 |        692 |          0 |          2 |        694 |
+| HTML       |          2 |        149 |         20 |         19 |        188 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                      | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                         |         52 |     11,506 |      1,913 |      2,444 |     15,863 |
+| . (Files)                                                                                                                 |          7 |      1,302 |         20 |        174 |      1,496 |
+| .kiro                                                                                                                     |          3 |        267 |          0 |         70 |        337 |
+| .kiro\specs                                                                                                               |          3 |        267 |          0 |         70 |        337 |
+| .kiro\specs\background-integration                                                                                        |          3 |        267 |          0 |         70 |        337 |
+| assets                                                                                                                    |          1 |        136 |          0 |         40 |        176 |
+| js                                                                                                                        |         35 |      8,984 |      1,831 |      1,999 |     12,814 |
+| js (Files)                                                                                                                |          1 |         73 |          8 |         13 |         94 |
+| js\config                                                                                                                 |          1 |        126 |         11 |          9 |        146 |
+| js\constants                                                                                                              |          2 |        598 |         46 |         54 |        698 |
+| js\entities                                                                                                               |         12 |      1,649 |        415 |        469 |      2,533 |
+| js\scenes                                                                                                                 |          7 |      3,160 |        546 |        720 |      4,426 |
+| js\systems                                                                                                                |          9 |      2,848 |        633 |        629 |      4,110 |
+| js\utils                                                                                                                  |          3 |        530 |        172 |        105 |        807 |
+| tests                                                                                                                     |          6 |        817 |         62 |        161 |      1,040 |
++---------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                                  | language   | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\.kiro\specs\background-integration\design.md       | Markdown   |        158 |          0 |         28 |        186 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\.kiro\specs\background-integration\requirements.md | Markdown   |         43 |          0 |         27 |         70 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\.kiro\specs\background-integration\tasks.md        | Markdown   |         66 |          0 |         15 |         81 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\AI_PROMPTS.md                                      | Markdown   |        114 |          0 |         35 |        149 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\README.md                                          | Markdown   |        217 |          0 |         62 |        279 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\TASKS.md                                           | Markdown   |        180 |          0 |         57 |        237 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\assets\README.md                                   | Markdown   |        136 |          0 |         40 |        176 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\fix_particles.js                                   | JavaScript |         21 |          5 |          5 |         31 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\index.html                                         | HTML       |         78 |         15 |         13 |        106 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\js\config\gameConfig.js                            | JavaScript |        126 |         11 |          9 |        146 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\js\constants\GameConstants.js                      | JavaScript |        260 |         36 |         44 |        340 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\js\constants\GameTypes.js                          | JavaScript |        338 |         10 |         10 |        358 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\js\entities\AssaultEnemy.js                        | JavaScript |         37 |          9 |         10 |         56 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\js\entities\CanvasGifAssaultEnemy.js               | JavaScript |         51 |         15 |         17 |         83 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\js\entities\Enemy.js                               | JavaScript |         80 |         16 |         25 |        121 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\js\entities\GifAssaultEnemy.js                     | JavaScript |         85 |         21 |         30 |        136 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\js\entities\GifMageEnemy.js                        | JavaScript |        105 |         26 |         39 |        170 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\js\entities\GifPlayer.js                           | JavaScript |        114 |         23 |         33 |        170 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\js\entities\GifTankEnemy.js                        | JavaScript |         81 |         20 |         29 |        130 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\js\entities\MageEnemy.js                           | JavaScript |         83 |         17 |         25 |        125 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\js\entities\Player.js                              | JavaScript |        294 |        114 |         84 |        492 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\js\entities\PowerUp.js                             | JavaScript |        366 |         75 |         85 |        526 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\js\entities\Projectile.js                          | JavaScript |        307 |         69 |         78 |        454 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\js\entities\TankEnemy.js                           | JavaScript |         46 |         10 |         14 |         70 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\js\main.js                                         | JavaScript |         73 |          8 |         13 |         94 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\js\scenes\BootScene.js                             | JavaScript |        122 |         25 |         28 |        175 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\js\scenes\GameOverScene.js                         | JavaScript |        279 |         32 |         55 |        366 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\js\scenes\GameScene.js                             | JavaScript |      1,995 |        355 |        453 |      2,803 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\js\scenes\GameScene_minimal.js                     | JavaScript |        102 |         19 |         30 |        151 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\js\scenes\IntroScene.js                            | JavaScript |        104 |         13 |         17 |        134 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\js\scenes\MenuScene.js                             | JavaScript |        296 |         59 |         70 |        425 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\js\scenes\PreloadScene.js                          | JavaScript |        262 |         43 |         67 |        372 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\js\systems\AudioManager.js                         | JavaScript |        458 |         93 |         99 |        650 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\js\systems\BackgroundManager.js                    | JavaScript |        195 |         83 |         53 |        331 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\js\systems\BoundarySystem.js                       | JavaScript |        220 |         82 |         41 |        343 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\js\systems\BuffSystem.js                           | JavaScript |        256 |          9 |         35 |        300 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\js\systems\CameraManager.js                        | JavaScript |        215 |        130 |         55 |        400 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\js\systems\EnemySpawner.js                         | JavaScript |        377 |         78 |        100 |        555 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\js\systems\PowerUpSystem.js                        | JavaScript |        372 |         57 |         82 |        511 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\js\systems\ScoreSystem.js                          | JavaScript |        453 |         53 |         91 |        597 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\js\systems\WeaponSystem.js                         | JavaScript |        302 |         48 |         73 |        423 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\js\utils\AssetLoader.js                            | JavaScript |        329 |         62 |         59 |        450 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\js\utils\GameMath.js                               | JavaScript |        150 |         97 |         36 |        283 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\js\utils\ParticleFix.js                            | JavaScript |         51 |         13 |         10 |         74 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\package-lock.json                                  | JSON       |        646 |          0 |          1 |        647 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\package.json                                       | JSON       |         46 |          0 |          1 |         47 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\tests\background-test.js                           | JavaScript |        123 |          7 |         30 |        160 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\tests\boundary-test.js                             | JavaScript |        179 |          8 |         37 |        224 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\tests\index.html                                   | HTML       |         71 |          5 |          6 |         82 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\tests\integration-test.js                          | JavaScript |        214 |         10 |         36 |        260 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\tests\test-config.js                               | JavaScript |         88 |         17 |         22 |        127 |
+| d:\python_2.0\PythonApplication1\PythonApplication1\project\first_game\tests\test-runner.js                               | JavaScript |        142 |         15 |         30 |        187 |
+| Total                                                                                                                     |            |     11,506 |      1,913 |      2,444 |     15,863 |
++---------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

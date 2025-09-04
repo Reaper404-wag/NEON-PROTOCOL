@@ -1,0 +1,46 @@
+{
+  "name": "future-survivors",
+  "version": "1.0.0",
+  "description": "Футуристическая игра выживания в стиле Vampire Survivors",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server -p 8000 -c-1",
+    "dev": "http-server -p 8000 -c-1 -o",
+    "build": "echo 'No build process needed for this project'",
+    "test": "echo 'No tests specified'",
+    "lint": "echo 'No linting configured'",
+    "serve": "python -m http.server 8000",
+    "serve-php": "php -S localhost:8000"
+  },
+  "keywords": [
+    "game",
+    "phaser",
+    "html5",
+    "survival",
+    "vampire-survivors",
+    "futuristic",
+    "web-game",
+    "javascript"
+  ],
+  "author": "Dean",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/future-survivors.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/future-survivors/issues"
+  },
+  "homepage": "https://github.com/yourusername/future-survivors#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
